@@ -21,7 +21,8 @@ if (process.env.NODE_ENV == "development") {
 // ✅ CORS configuration
 // ✅ CORS configuration for dev and production
 const allowedOrigins = [
-  'http://localhost:5173'
+  'http://localhost:5173',
+  'https://www.kutumbharat.com'
 ];
 
 app.use(
